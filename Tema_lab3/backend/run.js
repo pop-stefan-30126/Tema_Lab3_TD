@@ -14,8 +14,3 @@ api.put('/message', function(request, response) {
 api.listen(3000, function(){
   console.log('CORS-enabled web server is listening on port 3000...');
 });
-
-/*function distortBit(bits, index){
-  bits[index] = (bits[index]+1) % 2;
-  return bits;
-}*/
